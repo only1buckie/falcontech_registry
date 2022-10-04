@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfxapp.WelcomeController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="314.0" fitWidth="211.0" layoutX="206.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/falcontech.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="248.0" layoutY="24.0" text="Welcome" textFill="#ffc900">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Button fx:id="LogOutId" layoutX="260.0" layoutY="325.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="109.0" style="-fx-background-color: #ffc900;" text="Log Out" />
+            <Label fx:id="welcome" layoutX="463.0" layoutY="16.0" prefHeight="17.0" prefWidth="74.0" textFill="WHITE" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
